@@ -49,7 +49,7 @@ or the error code bytes) with more than 80% probability.
 
 You can get a table like this with `make` followed by `./xrun`.
 The code is pretty self-explanatory. However, for more preicision adjust the 
-simulation `TEST_TIMEOUT` in `xef_test.c` for more precise results. The table 
+simulation timout macro value `TEST_TIMEOUT` in `xef_test.c`. The table 
 above was run with significantly higher precision that is the simulation
 default.
 
